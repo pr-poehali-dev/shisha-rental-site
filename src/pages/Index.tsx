@@ -14,24 +14,6 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/60" />
       </div>
 
-      <div 
-        className="fixed left-0 top-0 bottom-0 w-1/4 bg-cover bg-center opacity-40 -z-5 hidden lg:block"
-        style={{
-          backgroundImage: `url('https://cdn.poehali.dev/projects/7c96ef46-a61a-4c50-afb9-b5ee0966d522/files/ef3d6f3e-94ed-4217-8373-17873ec2c6a3.jpg')`,
-          maskImage: 'linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
-          WebkitMaskImage: 'linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
-        }}
-      />
-      
-      <div 
-        className="fixed right-0 top-0 bottom-0 w-1/4 bg-cover bg-center opacity-40 -z-5 hidden lg:block"
-        style={{
-          backgroundImage: `url('https://cdn.poehali.dev/projects/7c96ef46-a61a-4c50-afb9-b5ee0966d522/files/ef3d6f3e-94ed-4217-8373-17873ec2c6a3.jpg')`,
-          maskImage: 'linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
-          WebkitMaskImage: 'linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
-        }}
-      />
-
       <nav className="relative z-10 backdrop-blur-md bg-background/20 border-b border-border/30">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
