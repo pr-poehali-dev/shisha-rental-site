@@ -7,10 +7,23 @@ import Icon from '@/components/ui/icon';
 const Catalog = () => {
   const tobaccoByStrength = {
     weak: [
-      { name: 'Двойное яблоко лайт', price: '450₽' },
-      { name: 'Персик', price: '500₽' },
-      { name: 'Дыня с мятой', price: '480₽' },
-      { name: 'Личи', price: '520₽' },
+      { name: 'Adalya', price: '450₽' },
+      { name: 'Afzal', price: '480₽' },
+      { name: 'Al Ajamy', price: '500₽' },
+      { name: 'Al Fakher', price: '520₽' },
+      { name: 'Al Waha', price: '490₽' },
+      { name: 'Argelini', price: '530₽' },
+      { name: 'Daily Hookah', price: '470₽' },
+      { name: 'D-Gastro', price: '550₽' },
+      { name: 'Fumari', price: '580₽' },
+      { name: 'Gin', price: '510₽' },
+      { name: 'Haze', price: '540₽' },
+      { name: 'Hookafina', price: '520₽' },
+      { name: 'Layalina', price: '460₽' },
+      { name: 'Serbetli', price: '490₽' },
+      { name: 'Social Smoke', price: '550₽' },
+      { name: 'Starbuzz', price: '600₽' },
+      { name: 'Vega', price: '530₽' },
     ],
     medium: [
       { name: 'Виноград с мятой', price: '550₽' },
