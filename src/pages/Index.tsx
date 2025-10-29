@@ -8,10 +8,10 @@ const Index = () => {
       <div 
         className="fixed inset-0 bg-cover bg-center bg-no-repeat -z-10"
         style={{
-          backgroundImage: `url('https://cdn.poehali.dev/projects/7c96ef46-a61a-4c50-afb9-b5ee0966d522/files/d59b32a2-37a8-49f0-bbe7-22ad73800e68.jpg')`,
+          backgroundImage: `url('https://cdn.poehali.dev/projects/7c96ef46-a61a-4c50-afb9-b5ee0966d522/files/bb8509f3-b325-4732-84de-41faa413625a.jpg')`,
         }}
       >
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/70" />
       </div>
 
       <nav className="relative z-10 backdrop-blur-md bg-background/20 border-b border-border/30">
@@ -51,9 +51,8 @@ const Index = () => {
       </nav>
 
       <main className="relative z-10">
-        <section className="container mx-auto px-4 py-12 min-h-[80vh] flex items-center justify-center">
-          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
-            <div className="text-center lg:text-left">
+        <section className="container mx-auto px-4 py-24 min-h-[80vh] flex items-center justify-center">
+          <div className="text-center max-w-4xl mx-auto">
               <div className="mb-8 inline-block">
                 <div className="bg-primary/10 backdrop-blur-sm px-6 py-2 rounded-full border border-primary/30">
                   <span className="text-primary font-medium">Премиум качество</span>
@@ -64,11 +63,11 @@ const Index = () => {
                 Аренда <span className="text-primary">Кальянов</span>
               </h1>
               
-              <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl animate-fade-in">
+              <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto animate-fade-in">
                 Создайте атмосферу незабываемого вечера с нашими премиальными кальянами
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center animate-fade-in mb-12">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in mb-20">
                 <Link to="/catalog">
                   <Button 
                     size="lg"
@@ -99,7 +98,7 @@ const Index = () => {
                     key={idx}
                     className="p-5 rounded-xl bg-card/50 backdrop-blur-sm border border-border/30 hover:border-primary/50 transition-all hover:scale-105"
                   >
-                    <div className="bg-primary/20 w-12 h-12 rounded-lg flex items-center justify-center mx-auto lg:mx-0 mb-3">
+                    <div className="bg-primary/20 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-3">
                       <Icon name={feature.icon} size={24} className="text-primary" />
                     </div>
                     <h3 className="text-lg font-semibold mb-1 text-foreground">{feature.title}</h3>
@@ -107,18 +106,6 @@ const Index = () => {
                   </div>
                 ))}
               </div>
-            </div>
-
-            <div className="flex items-center justify-center">
-              <div className="relative">
-                <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full" />
-                <img 
-                  src="https://cdn.poehali.dev/projects/7c96ef46-a61a-4c50-afb9-b5ee0966d522/files/bb8509f3-b325-4732-84de-41faa413625a.jpg"
-                  alt="Премиум кальян"
-                  className="relative z-10 w-full max-w-lg rounded-2xl shadow-2xl animate-fade-in"
-                />
-              </div>
-            </div>
           </div>
         </section>
       </main>
