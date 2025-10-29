@@ -95,7 +95,7 @@ const Catalog = () => {
             <CardContent>
               <Tabs defaultValue="weak" className="w-full">
                 <TabsList className="grid w-full grid-cols-3 mb-4">
-                  <TabsTrigger value="weak">Слабый</TabsTrigger>
+                  <TabsTrigger value="weak">Легкий</TabsTrigger>
                   <TabsTrigger value="medium">Средний</TabsTrigger>
                   <TabsTrigger value="strong">Крепкий</TabsTrigger>
                 </TabsList>
