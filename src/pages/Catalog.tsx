@@ -46,10 +46,9 @@ const Catalog = () => {
   };
 
   const coals = [
-    { name: 'Кокосовые угли 1кг', price: '300₽' },
-    { name: 'Быстроразжигаемые угли', price: '200₽' },
-    { name: 'Премиум кокосовые', price: '400₽' },
-    { name: 'Угли для калауда', price: '350₽' },
+    { name: 'CROWN', price: '350₽' },
+    { name: 'Cocoloco', price: '300₽' },
+    { name: '8bit', price: '320₽' },
   ];
 
   return (
