@@ -36,10 +36,12 @@ const Catalog = () => {
       { name: 'Tangiers Noir', price: '700₽' },
     ],
     strong: [
-      { name: 'Двойное яблоко', price: '580₽' },
-      { name: 'Грейпфрут', price: '600₽' },
-      { name: 'Мята экстра', price: '620₽' },
-      { name: 'Кола', price: '590₽' },
+      { name: 'Alchemist Blend', price: '720₽' },
+      { name: 'DarkSide Rare', price: '750₽' },
+      { name: 'D-Mini', price: '680₽' },
+      { name: 'Hookafina Black', price: '710₽' },
+      { name: 'Nirvana', price: '690₽' },
+      { name: 'Satyr', price: '740₽' },
     ]
   };
 
