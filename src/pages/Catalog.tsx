@@ -26,10 +26,14 @@ const Catalog = () => {
       { name: 'Vega', price: '530₽' },
     ],
     medium: [
-      { name: 'Виноград с мятой', price: '550₽' },
-      { name: 'Манго маракуйя', price: '600₽' },
-      { name: 'Вишня', price: '530₽' },
-      { name: 'Апельсин', price: '540₽' },
+      { name: 'Alchemist Blend', price: '620₽' },
+      { name: 'DarkSide Medium', price: '650₽' },
+      { name: 'D-Mini', price: '580₽' },
+      { name: 'Hookafina Black', price: '610₽' },
+      { name: 'Nirvana', price: '590₽' },
+      { name: 'Satyr', price: '640₽' },
+      { name: 'Starbuzz Vintage', price: '680₽' },
+      { name: 'Tangiers Noir', price: '700₽' },
     ],
     strong: [
       { name: 'Двойное яблоко', price: '580₽' },
