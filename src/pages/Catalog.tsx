@@ -46,7 +46,7 @@ const Catalog = () => {
   };
 
   const coals = [
-    { name: 'CROWN', price: '350₽/штука' },
+    { name: 'CROWN', price: '30₽/шт' },
     { name: 'Cocoloco', price: '300₽/штука' },
     { name: '8bit', price: '320₽/штука' },
   ];
